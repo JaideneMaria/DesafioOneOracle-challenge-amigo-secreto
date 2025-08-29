@@ -51,3 +51,9 @@ function sortearAmigo(){
     }
     
 }
+
+function limparNomeSorteado(){
+    const resultado = document.querySelector('#resultado');
+    resultado.innerText = "";
+
+}
